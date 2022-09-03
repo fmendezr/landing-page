@@ -2,7 +2,12 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    border: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
 }
 
 img {
@@ -13,6 +18,12 @@ button {
     border: 2px solid black;
     padding: 10px 30px;
     font-weight: bold;
+}
+
+.seperator {
+    height: 3px;
+    width: 100vw;
+    background-color: black;
 }
 
 /* Header elements */
@@ -139,7 +150,7 @@ h2 {
 /* Third div */
 
 #div3 {
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,6 +164,7 @@ h2 {
 
 #quote {
     padding: 5px;
+    font-style: italic;
 }
 
 #author {
@@ -164,10 +176,11 @@ h2 {
 /* fourth div */
 
 #div4 {
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #BABABA;
 }
 
 #contact-container{
@@ -183,8 +196,17 @@ h2 {
     width: 130px;
 }
 
+#button-container2 > button {
+    background-color: white;
+}
+
+#div4 > p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 span {
-    font-size: 5px;
+    font-size: 10px;
 }
 /* footer */
 
