@@ -119,9 +119,12 @@ img {
     justify-content: space-around;
 }
 
-#sign-up{
-    flex: 0 0 100px;
+#button-container {
+    display: flex;
+    align-items: center;
 }
+
+
 
 /* footer */
 
@@ -131,3 +134,4 @@ img {
     align-items: center;
     justify-content: center;
 }
+
