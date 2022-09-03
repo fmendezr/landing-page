@@ -6,11 +6,6 @@ div {
     border: 1px black solid;
 }
 
-
-#div3 {
-    background-color: red;
-}
-
 /* Header elements */
 
 #header {
@@ -75,4 +70,27 @@ div {
     height: 200px;
 }
 
+/* Third div */
+
+#div3 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-container {
+    width: 605px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    padding: 5px;
+}
+
+#author {
+    align-self: flex-end;
+    margin-right: 25px;
+}
 
