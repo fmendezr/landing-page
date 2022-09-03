@@ -83,6 +83,11 @@ button {
     align-items: center;
 }
 
+#right-side > img {
+    padding: 5px;
+    background-color: #BABABA;
+}
+
 h1 {
     margin-bottom: -10px;
 }
