@@ -26,6 +26,18 @@ img {
     gap: 7.5px;
 }
 
+#navbar {
+    margin-right: 100px;
+}
+
+#logo-container {
+    margin-left: 100px;
+}
+
+#navbar {
+    gap: 40px;
+}
+
 #logo {
     max-width: 100px;
 }
@@ -47,8 +59,22 @@ img {
 
 #left-side, #right-side {
   flex: 0  1 auto;  
-  width: 300px;
+  width: 350px;
   height: 300px;
+  display: flex;
+}
+
+#left-side {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-side {
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: -10px;
 }
 
 /* Second div */
@@ -62,21 +88,33 @@ img {
     background-color: transparent;
 }
 
+h2 {
+    margin-top: 50px;
+}
+
 #invisible {
     color: transparent;
 }
 
 #div2 > div {
     display: flex;
+    gap: 30px;
 }
 
 .ilustration-container {
+    display: flex;
+    flex-direction: column;
     width: 151.25px;
-    height: 250px;
+    height: 230px;
 }
 
 .ilustration {
+    display: flex;
     height: 200px;
+}
+
+.subtext {
+    text-align: center;
 }
 
 /* Third div */
@@ -99,6 +137,7 @@ img {
 }
 
 #author {
+    margin-top: -15px;
     align-self: flex-end;
     margin-right: 25px;
 }
@@ -119,12 +158,10 @@ img {
     justify-content: space-around;
 }
 
-#button-container {
+#button-container2 {
     display: flex;
     align-items: center;
 }
-
-
 
 /* footer */
 
