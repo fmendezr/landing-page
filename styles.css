@@ -94,3 +94,22 @@ div {
     margin-right: 25px;
 }
 
+/* fourth div */
+
+#div4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container{
+    width: 605px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sign-up{
+    flex: 0 0 100px;
+}
