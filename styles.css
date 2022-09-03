@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+div {
+    height: 25vw;
+    border: 1px black solid;
+}
+
+
+#div1 {
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: blueviolet;
+}
+
+#div3 {
+    background-color: red;
+}
+
+#header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar, #logo-container {
+    margin: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+}
+
+.header-link {
+    border: 1px solid red;
+}
